@@ -48,10 +48,6 @@ src/
 
 ## Getting Started
 
-### 1. Clone the repository
-
-git clone https://github.com/YOUR-USERNAME/customer-support-dashboard.git
-
 ### 2. Go to the project folder
 
 cd customer-support-dashboard
