@@ -1,16 +1,89 @@
-# React + Vite
+# Customer Support Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive customer support dashboard built with React.js, Tailwind CSS, and Zustand.
 
-Currently, two official plugins are available:
+The dashboard allows support teams to view, search, filter, and manage customer support tickets from a clean and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Dashboard statistics
+  - Total Tickets
+  - Open Tickets
+  - In Progress Tickets
+  - Resolved Tickets
+- Search tickets by customer name or issue
+- Filter tickets by status
+- Filter tickets by priority
+- Change ticket status
+- View complete ticket details
+- Customer information
+- Issue details
+- Previous conversation/messages
+- Loading state
+- Error state
+- Empty state
+- Responsive design for desktop and mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React.js
+- Vite
+- Tailwind CSS
+- Zustand
+- JavaScript
+- Mock API
+- Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Project Structure
+
+src/
+├── components/
+├── data/
+├── pages/
+├── services/
+├── store/
+├── App.jsx
+├── index.css
+└── main.jsx
+
+## Getting Started
+
+### 1. Clone the repository
+
+git clone https://github.com/YOUR-USERNAME/customer-support-dashboard.git
+
+### 2. Go to the project folder
+
+cd customer-support-dashboard
+
+### 3. Install dependencies
+
+npm install
+
+### 4. Start the development server
+
+npm run dev
+
+The application will run locally using Vite.
+
+## Available Scripts
+
+npm run dev
+
+Starts the development server.
+
+npm run build
+
+Creates a production build.
+
+npm run preview
+
+Previews the production build locally.
+
+## Screenshots
+
+Add screenshots of the dashboard here after deployment.
+
+## Author
+
+Himanshi
